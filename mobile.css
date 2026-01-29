@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    background: url('fondsite.png') no-repeat center center fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Mobile */
+header {
+    background: rgba(232, 244, 248, 0.95);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.mobile-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.header-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header-text h1 {
+    font-size: 1.3rem;
+    color: #2c5aa0;
+    font-weight: 600;
+}
+
+.header-text p {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.cta-button {
+    display: block;
+    background: #27ae60;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* Hero Mobile */
+.hero-mobile {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: rgba(232, 244, 248, 0.9);
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+.hero-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1.5rem;
+    display: block;
+}
+
+.hero-mobile h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.hero-mobile p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}
+
+/* Services Mobile */
+.services-mobile {
+    padding: 2rem 1rem;
+}
+
+.services-mobile h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.service-item {
+    background: rgba(232, 244, 248, 0.8);
+    padding: 1.5rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.service-icon {
+    font-size: 2rem;
+    min-width: 50px;
+}
+
+.service-item h3 {
+    color: #2c5aa0;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.service-item p {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+/* About Mobile */
+.about-mobile {
+    padding: 2rem 1rem;
+    background: rgba(232, 244, 248, 0.9);
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+.about-mobile h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.about-mobile p {
+    font-size: 1.1rem;
+    color: #5a6c7d;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.qualifications-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.qualifications-mobile p {
+    color: #2c5aa0;
+    font-size: 0.95rem;
+    text-align: left;
+    margin: 0;
+    padding: 0.5rem;
+    background: rgba(255,255,255,0.3);
+    border-radius: 8px;
+}
+
+/* Info Mobile */
+.info-mobile {
+    padding: 2rem 1rem;
+}
+
+.info-mobile h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.info-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.info-card {
+    background: rgba(232, 244, 248, 0.8);
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.info-card h3 {
+    color: #2c5aa0;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.info-card p {
+    color: #5a6c7d;
+    font-size: 1rem;
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: rgba(232, 244, 248, 0.9);
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+.cta-section h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+}
+
+.main-cta {
+    display: inline-block;
+    background: #00b894;
+    color: white;
+    text-decoration: none;
+    padding: 1.2rem 2rem;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 15px rgba(0,184,148,0.3);
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+    font-size: 0.9rem;
+}
+
+/* Animations */
+.service-item, .info-card {
+    transition: transform 0.3s ease;
+}
+
+.service-item:active, .info-card:active {
+    transform: scale(0.98);
+}
+
+.main-cta:active, .cta-button:active {
+    transform: scale(0.95);
+}
+
+/* Touch optimizations */
+.cta-button, .main-cta {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+}
+
+/* Responsive adjustments */
+@media (max-width: 375px) {
+    .hero-mobile h2 {
+        font-size: 1.5rem;
+    }
+    
+    .service-item {
+        padding: 1rem;
+    }
+    
+    .service-icon {
+        font-size: 1.5rem;
+        min-width: 40px;
+    }
+}

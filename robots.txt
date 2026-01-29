@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://votre-domaine.com/sitemap.xml
+
+# Optimisation pour les moteurs de recherche
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
